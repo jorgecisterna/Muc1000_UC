@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Mon May  4 03:26:10 2026
--- Host        : PC_Felipe running 64-bit major release  (build 9200)
+-- Date        : Thu May  7 02:04:15 2026
+-- Host        : LAPTOP-OGSHLLCI running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Users/feant/Vivado/Pro1_ava/Pro1_ava.srcs/sources_1/bd/design_1/ip/design_1_penales_0_0/design_1_penales_0_0_sim_netlist.vhdl
+--               c:/Users/nitro/Documents/SEP/P01_FIN/Pro1_ava/Pro1_ava.srcs/sources_1/bd/design_1/ip/design_1_penales_0_0/design_1_penales_0_0_sim_netlist.vhdl
 -- Design      : design_1_penales_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -25,6 +25,10 @@ entity design_1_penales_0_0_penales is
     update : out STD_LOGIC;
     leds : out STD_LOGIC_VECTOR ( 3 downto 0 )
   );
+  attribute LFSR_SEED : string;
+  attribute LFSR_SEED of design_1_penales_0_0_penales : entity is "4'b1010";
+  attribute MIN_TURNOS : integer;
+  attribute MIN_TURNOS of design_1_penales_0_0_penales : entity is 4;
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of design_1_penales_0_0_penales : entity is "penales";
 end design_1_penales_0_0_penales;
@@ -292,11 +296,8 @@ architecture STRUCTURE of design_1_penales_0_0_penales is
   signal \state__0\ : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal turno1 : STD_LOGIC;
   signal \turno[0]_i_1_n_0\ : STD_LOGIC;
-  signal \turno[0]_i_2_n_0\ : STD_LOGIC;
   signal \turno[1]_i_1_n_0\ : STD_LOGIC;
   signal \turno[1]_i_2_n_0\ : STD_LOGIC;
-  signal \turno[1]_i_3_n_0\ : STD_LOGIC;
-  signal \turno[1]_i_4_n_0\ : STD_LOGIC;
   signal \turno_reg_n_0_[0]\ : STD_LOGIC;
   signal \turno_reg_n_0_[1]\ : STD_LOGIC;
   signal \^update\ : STD_LOGIC;
@@ -321,13 +322,15 @@ architecture STRUCTURE of design_1_penales_0_0_penales is
   signal \NLW_puntaje_fpga_reg[31]_i_3_O_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 to 3 );
   signal \NLW_puntaje_usu_reg[31]_i_2_CO_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 downto 2 );
   signal \NLW_puntaje_usu_reg[31]_i_2_O_UNCONNECTED\ : STD_LOGIC_VECTOR ( 3 to 3 );
-  attribute FSM_ENCODED_STATES : string;
-  attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[0]\ : label is "esp:000,generar:010,resultado:011,update_score:100,check_fin:101,idle:001,acep:110";
-  attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[1]\ : label is "esp:000,generar:010,resultado:011,update_score:100,check_fin:101,idle:001,acep:110";
-  attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[2]\ : label is "esp:000,generar:010,resultado:011,update_score:100,check_fin:101,idle:001,acep:110";
   attribute SOFT_HLUTNM : string;
-  attribute SOFT_HLUTNM of \leds[0]_INST_0\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \leds[1]_INST_0\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \FSM_sequential_state[0]_i_1\ : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \FSM_sequential_state[1]_i_1\ : label is "soft_lutpair0";
+  attribute FSM_ENCODED_STATES : string;
+  attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[0]\ : label is "esp:000,generar:010,update_score:011,check_fin:100,idle:001,acep:101";
+  attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[1]\ : label is "esp:000,generar:010,update_score:011,check_fin:100,idle:001,acep:101";
+  attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[2]\ : label is "esp:000,generar:010,update_score:011,check_fin:100,idle:001,acep:101";
+  attribute SOFT_HLUTNM of fin_juego_i_2 : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \leds[0]_INST_0\ : label is "soft_lutpair1";
   attribute COMPARATOR_THRESHOLD : integer;
   attribute COMPARATOR_THRESHOLD of \leds[2]_INST_0\ : label is 11;
   attribute COMPARATOR_THRESHOLD of \leds[2]_INST_0_i_1\ : label is 11;
@@ -354,51 +357,41 @@ architecture STRUCTURE of design_1_penales_0_0_penales is
   attribute ADDER_THRESHOLD of \puntaje_usu_reg[31]_i_2\ : label is 35;
   attribute ADDER_THRESHOLD of \puntaje_usu_reg[4]_i_1\ : label is 35;
   attribute ADDER_THRESHOLD of \puntaje_usu_reg[8]_i_1\ : label is 35;
-  attribute SOFT_HLUTNM of \turno[0]_i_2\ : label is "soft_lutpair1";
-  attribute SOFT_HLUTNM of \turno[1]_i_2\ : label is "soft_lutpair1";
-  attribute SOFT_HLUTNM of \turno[1]_i_3\ : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of \turno[1]_i_4\ : label is "soft_lutpair0";
 begin
   leds(3 downto 0) <= \^leds\(3 downto 0);
   update <= \^update\;
   wol <= \^wol\;
-\FSM_sequential_state[0]_i_1\: unisim.vcomponents.LUT6
+\FSM_sequential_state[0]_i_1\: unisim.vcomponents.LUT3
     generic map(
-      INIT => X"151D1D1D1D1D1D1D"
+      INIT => X"07"
+    )
+        port map (
+      I0 => state(2),
+      I1 => state(1),
+      I2 => state(0),
+      O => \state__0\(0)
+    );
+\FSM_sequential_state[1]_i_1\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"06"
     )
         port map (
       I0 => state(0),
-      I1 => state(2),
-      I2 => state(1),
-      I3 => \turno_reg_n_0_[1]\,
-      I4 => \turno_reg_n_0_[0]\,
-      I5 => turno1,
-      O => \state__0\(0)
-    );
-\FSM_sequential_state[1]_i_1\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"000000FF80FF0000"
-    )
-        port map (
-      I0 => turno1,
-      I1 => \turno_reg_n_0_[0]\,
-      I2 => \turno_reg_n_0_[1]\,
-      I3 => state(2),
-      I4 => state(0),
-      I5 => state(1),
+      I1 => state(1),
+      I2 => state(2),
       O => \state__0\(1)
     );
 \FSM_sequential_state[2]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"3C3C3F3CFE3EFE3E"
+      INIT => X"55558CFF55558CAA"
     )
         port map (
-      I0 => ini,
-      I1 => state(1),
-      I2 => state(2),
-      I3 => update_i_2_n_0,
-      I4 => fin,
-      I5 => state(0),
+      I0 => state(2),
+      I1 => update_i_2_n_0,
+      I2 => fin,
+      I3 => state(0),
+      I4 => state(1),
+      I5 => ini,
       O => \FSM_sequential_state[2]_i_1_n_0\
     );
 \FSM_sequential_state[2]_i_10\: unisim.vcomponents.LUT6
@@ -494,14 +487,14 @@ begin
     );
 \FSM_sequential_state[2]_i_2\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"000080FFFF000000"
+      INIT => X"00000080FF000000"
     )
         port map (
-      I0 => turno1,
+      I0 => \turno_reg_n_0_[1]\,
       I1 => \turno_reg_n_0_[0]\,
-      I2 => \turno_reg_n_0_[1]\,
-      I3 => state(0),
-      I4 => state(1),
+      I2 => turno1,
+      I3 => state(1),
+      I4 => state(0),
       I5 => state(2),
       O => \state__0\(2)
     );
@@ -635,28 +628,24 @@ begin
     );
 fin_juego_i_1: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"404040FF40404000"
+      INIT => X"DF00FFFF10000000"
     )
         port map (
       I0 => state(1),
-      I1 => state(2),
+      I1 => fin_juego_i_2_n_0,
       I2 => turno1,
-      I3 => fin_juego_i_2_n_0,
-      I4 => \turno[1]_i_4_n_0\,
+      I3 => state(2),
+      I4 => \turno[1]_i_2_n_0\,
       I5 => fin,
       O => fin_juego_i_1_n_0
     );
-fin_juego_i_2: unisim.vcomponents.LUT6
+fin_juego_i_2: unisim.vcomponents.LUT2
     generic map(
-      INIT => X"0800000000000000"
+      INIT => X"7"
     )
         port map (
-      I0 => \turno[1]_i_3_n_0\,
-      I1 => state(0),
-      I2 => reset,
-      I3 => turno1,
-      I4 => \turno_reg_n_0_[0]\,
-      I5 => \turno_reg_n_0_[1]\,
+      I0 => \turno_reg_n_0_[0]\,
+      I1 => \turno_reg_n_0_[1]\,
       O => fin_juego_i_2_n_0
     );
 fin_juego_reg: unisim.vcomponents.FDRE
@@ -672,15 +661,15 @@ fin_juego_reg: unisim.vcomponents.FDRE
     );
 jugar_prev_i_1: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"8B88BB88BB88B888"
+      INIT => X"8B888B88BB88B888"
     )
         port map (
       I0 => jugar_prev_reg_n_0,
       I1 => reset,
-      I2 => state(1),
+      I2 => state(2),
       I3 => jugar,
-      I4 => state(2),
-      I5 => state(0),
+      I4 => state(0),
+      I5 => state(1),
       O => jugar_prev_i_1_n_0
     );
 jugar_prev_reg: unisim.vcomponents.FDRE
@@ -1635,21 +1624,21 @@ jugar_prev_reg: unisim.vcomponents.FDRE
       INIT => X"0001"
     )
         port map (
-      I0 => reset,
-      I1 => state(0),
-      I2 => state(1),
-      I3 => state(2),
+      I0 => state(0),
+      I1 => reset,
+      I2 => state(2),
+      I3 => state(1),
       O => \puntaje_fpga[31]_i_1_n_0\
     );
 \puntaje_fpga[31]_i_2\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"0001000300030001"
+      INIT => X"0001040104010001"
     )
         port map (
-      I0 => state(2),
-      I1 => state(1),
-      I2 => state(0),
-      I3 => reset,
+      I0 => reset,
+      I1 => state(0),
+      I2 => state(2),
+      I3 => state(1),
       I4 => res,
       I5 => \turno_reg_n_0_[0]\,
       O => puntaje_fpga0
@@ -2136,13 +2125,13 @@ jugar_prev_reg: unisim.vcomponents.FDRE
     );
 \puntaje_usu[31]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"0003000100010003"
+      INIT => X"0401000100010401"
     )
         port map (
-      I0 => state(2),
-      I1 => state(1),
-      I2 => state(0),
-      I3 => reset,
+      I0 => reset,
+      I1 => state(0),
+      I2 => state(2),
+      I3 => state(1),
       I4 => \turno_reg_n_0_[0]\,
       I5 => res,
       O => puntaje_usu0
@@ -2621,14 +2610,14 @@ jugar_prev_reg: unisim.vcomponents.FDRE
     );
 resul_i_1: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFFFFFEF00000020"
+      INIT => X"FFFEFFFF00020000"
     )
         port map (
       I0 => resul_i_2_n_0,
       I1 => reset,
-      I2 => state(1),
+      I2 => state(0),
       I3 => state(2),
-      I4 => state(0),
+      I4 => state(1),
       I5 => res,
       O => resul_i_1_n_0
     );
@@ -2655,70 +2644,39 @@ resul_reg: unisim.vcomponents.FDRE
     );
 \turno[0]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFFFF7FC00000800"
+      INIT => X"C5050000F0F0F0F0"
     )
         port map (
-      I0 => \turno[0]_i_2_n_0\,
-      I1 => state(2),
-      I2 => state(1),
-      I3 => state(0),
-      I4 => reset,
-      I5 => \turno_reg_n_0_[0]\,
+      I0 => state(1),
+      I1 => \turno_reg_n_0_[1]\,
+      I2 => \turno_reg_n_0_[0]\,
+      I3 => turno1,
+      I4 => state(2),
+      I5 => \turno[1]_i_2_n_0\,
       O => \turno[0]_i_1_n_0\
-    );
-\turno[0]_i_2\: unisim.vcomponents.LUT3
-    generic map(
-      INIT => X"7F"
-    )
-        port map (
-      I0 => \turno_reg_n_0_[1]\,
-      I1 => \turno_reg_n_0_[0]\,
-      I2 => turno1,
-      O => \turno[0]_i_2_n_0\
     );
 \turno[1]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"5050FFDFA0A00020"
+      INIT => X"D4140000CCCCCCCC"
     )
         port map (
-      I0 => \turno_reg_n_0_[0]\,
-      I1 => \turno[1]_i_2_n_0\,
-      I2 => \turno[1]_i_3_n_0\,
-      I3 => reset,
-      I4 => \turno[1]_i_4_n_0\,
-      I5 => \turno_reg_n_0_[1]\,
+      I0 => state(1),
+      I1 => \turno_reg_n_0_[1]\,
+      I2 => \turno_reg_n_0_[0]\,
+      I3 => turno1,
+      I4 => state(2),
+      I5 => \turno[1]_i_2_n_0\,
       O => \turno[1]_i_1_n_0\
     );
-\turno[1]_i_2\: unisim.vcomponents.LUT4
+\turno[1]_i_2\: unisim.vcomponents.LUT3
     generic map(
-      INIT => X"80FF"
+      INIT => X"01"
     )
         port map (
-      I0 => turno1,
-      I1 => \turno_reg_n_0_[0]\,
-      I2 => \turno_reg_n_0_[1]\,
-      I3 => state(0),
-      O => \turno[1]_i_2_n_0\
-    );
-\turno[1]_i_3\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"2"
-    )
-        port map (
-      I0 => state(2),
-      I1 => state(1),
-      O => \turno[1]_i_3_n_0\
-    );
-\turno[1]_i_4\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"0001"
-    )
-        port map (
-      I0 => reset,
+      I0 => state(1),
       I1 => state(0),
-      I2 => state(1),
-      I3 => state(2),
-      O => \turno[1]_i_4_n_0\
+      I2 => reset,
+      O => \turno[1]_i_2_n_0\
     );
 \turno_reg[0]\: unisim.vcomponents.FDRE
     generic map(
@@ -2744,7 +2702,7 @@ resul_reg: unisim.vcomponents.FDRE
     );
 update_i_1: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFFFFFFC00000080"
+      INIT => X"FFFFFFFC00000800"
     )
         port map (
       I0 => update_i_2_n_0,
@@ -2777,7 +2735,7 @@ wol_i_1: unisim.vcomponents.LUT5
       INIT => X"40FF4000"
     )
         port map (
-      I0 => state(0),
+      I0 => state(1),
       I1 => state(2),
       I2 => leds_v1,
       I3 => update0,
@@ -2786,7 +2744,7 @@ wol_i_1: unisim.vcomponents.LUT5
     );
 wol_i_2: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"000000000000200F"
+      INIT => X"000000000020000F"
     )
         port map (
       I0 => jugar,
@@ -2834,6 +2792,10 @@ entity design_1_penales_0_0 is
 end design_1_penales_0_0;
 
 architecture STRUCTURE of design_1_penales_0_0 is
+  attribute LFSR_SEED : string;
+  attribute LFSR_SEED of U0 : label is "4'b1010";
+  attribute MIN_TURNOS : integer;
+  attribute MIN_TURNOS of U0 : label is 4;
   attribute x_interface_info : string;
   attribute x_interface_info of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute x_interface_parameter : string;

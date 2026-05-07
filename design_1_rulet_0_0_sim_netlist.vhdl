@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Sun May  3 22:50:02 2026
--- Host        : PC_Felipe running 64-bit major release  (build 9200)
+-- Date        : Thu May  7 01:56:17 2026
+-- Host        : LAPTOP-OGSHLLCI running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Users/feant/Vivado/Pro1_ava/Pro1_ava.srcs/sources_1/bd/design_1/ip/design_1_rulet_0_0/design_1_rulet_0_0_sim_netlist.vhdl
+--               c:/Users/nitro/Documents/SEP/P01_FIN/Pro1_ava/Pro1_ava.srcs/sources_1/bd/design_1/ip/design_1_rulet_0_0/design_1_rulet_0_0_sim_netlist.vhdl
 -- Design      : design_1_rulet_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -25,29 +25,31 @@ entity design_1_rulet_0_0_rulet is
     leds : out STD_LOGIC_VECTOR ( 3 downto 0 );
     update : out STD_LOGIC
   );
+  attribute DEBUG_MODE : string;
+  attribute DEBUG_MODE of design_1_rulet_0_0_rulet : entity is "TRUE";
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of design_1_rulet_0_0_rulet : entity is "rulet";
+  attribute WIN_MODE : integer;
+  attribute WIN_MODE of design_1_rulet_0_0_rulet : entity is 50;
 end design_1_rulet_0_0_rulet;
 
 architecture STRUCTURE of design_1_rulet_0_0_rulet is
+  signal \<const0>\ : STD_LOGIC;
   signal \FSM_sequential_state[0]_i_1_n_0\ : STD_LOGIC;
   signal \FSM_sequential_state[1]_i_1_n_0\ : STD_LOGIC;
   signal \FSM_sequential_state[2]_i_1_n_0\ : STD_LOGIC;
   signal acep_prev_i_1_n_0 : STD_LOGIC;
   signal acep_prev_reg_n_0 : STD_LOGIC;
-  signal alea_i_1_n_0 : STD_LOGIC;
-  signal alea_reg_n_0 : STD_LOGIC;
   signal apu_reg : STD_LOGIC;
   signal \apu_reg__0\ : STD_LOGIC;
   signal apu_reg_i_1_n_0 : STD_LOGIC;
-  signal apu_reg_i_3_n_0 : STD_LOGIC;
-  signal doble_i_1_n_0 : STD_LOGIC;
-  signal doble_i_2_n_0 : STD_LOGIC;
-  signal doble_reg_n_0 : STD_LOGIC;
+  signal apu_reg_i_2_n_0 : STD_LOGIC;
+  signal cambio : STD_LOGIC;
+  signal cambio_i_1_n_0 : STD_LOGIC;
+  signal \^leds\ : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal lfsr : STD_LOGIC_VECTOR ( 1 to 1 );
   signal \lfsr__0\ : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal p_0_out : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal \resu_reg__0\ : STD_LOGIC;
   signal resu_reg_i_1_n_0 : STD_LOGIC;
   signal state : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal \state__0\ : STD_LOGIC_VECTOR ( 2 to 2 );
@@ -57,23 +59,21 @@ architecture STRUCTURE of design_1_rulet_0_0_rulet is
   signal \^wol\ : STD_LOGIC;
   signal wol_i_1_n_0 : STD_LOGIC;
   signal wol_i_2_n_0 : STD_LOGIC;
-  signal wol_led : STD_LOGIC;
-  signal \wol_reg__0\ : STD_LOGIC;
   signal wol_reg_i_1_n_0 : STD_LOGIC;
+  signal wol_reg_i_2_n_0 : STD_LOGIC;
   attribute SOFT_HLUTNM : string;
-  attribute SOFT_HLUTNM of \FSM_sequential_state[0]_i_1\ : label is "soft_lutpair3";
-  attribute SOFT_HLUTNM of \FSM_sequential_state[2]_i_2\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \FSM_sequential_state[0]_i_1\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \FSM_sequential_state[2]_i_2\ : label is "soft_lutpair0";
   attribute FSM_ENCODED_STATES : string;
   attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[0]\ : label is "esp:000,idle:001,resultado:010,decision:011,pago:100,res:101,";
   attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[1]\ : label is "esp:000,idle:001,resultado:010,decision:011,pago:100,res:101,";
   attribute FSM_ENCODED_STATES of \FSM_sequential_state_reg[2]\ : label is "esp:000,idle:001,resultado:010,decision:011,pago:100,res:101,";
   attribute SOFT_HLUTNM of apu_reg_i_2 : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of \leds[0]_INST_0\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \leds[1]_INST_0\ : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of \leds[2]_INST_0\ : label is "soft_lutpair3";
-  attribute SOFT_HLUTNM of \leds[3]_INST_0\ : label is "soft_lutpair2";
   attribute SOFT_HLUTNM of wol_reg_i_2 : label is "soft_lutpair1";
 begin
+  leds(3 downto 2) <= \^leds\(3 downto 2);
+  leds(1) <= \<const0>\;
+  leds(0) <= \^leds\(0);
   update <= \^update\;
   wol <= \^wol\;
 \FSM_sequential_state[0]_i_1\: unisim.vcomponents.LUT3
@@ -152,15 +152,19 @@ begin
       D => \state__0\(2),
       Q => state(2)
     );
+GND: unisim.vcomponents.GND
+     port map (
+      G => \<const0>\
+    );
 acep_prev_i_1: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFFF22A8000022A8"
+      INIT => X"FFFF2A2800002A28"
     )
         port map (
       I0 => acep,
       I1 => state(1),
-      I2 => state(0),
-      I3 => state(2),
+      I2 => state(2),
+      I3 => state(0),
       I4 => reset,
       I5 => acep_prev_reg_n_0,
       O => acep_prev_i_1_n_0
@@ -176,34 +180,13 @@ acep_prev_reg: unisim.vcomponents.FDRE
       Q => acep_prev_reg_n_0,
       R => '0'
     );
-alea_i_1: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"FFFFFEFF00000200"
-    )
-        port map (
-      I0 => lfsr(1),
-      I1 => state(2),
-      I2 => state(0),
-      I3 => state(1),
-      I4 => reset,
-      I5 => alea_reg_n_0,
-      O => alea_i_1_n_0
-    );
-alea_reg: unisim.vcomponents.FDRE
-     port map (
-      C => clk,
-      CE => '1',
-      D => alea_i_1_n_0,
-      Q => alea_reg_n_0,
-      R => '0'
-    );
 apu_reg_i_1: unisim.vcomponents.LUT4
     generic map(
       INIT => X"FB08"
     )
         port map (
-      I0 => apu_reg,
-      I1 => apu_reg_i_3_n_0,
+      I0 => apu_reg_i_2_n_0,
+      I1 => apu_reg,
       I2 => reset,
       I3 => \apu_reg__0\,
       O => apu_reg_i_1_n_0
@@ -218,7 +201,7 @@ apu_reg_i_2: unisim.vcomponents.LUT5
       I2 => sw(0),
       I3 => state(1),
       I4 => \apu_reg__0\,
-      O => apu_reg
+      O => apu_reg_i_2_n_0
     );
 apu_reg_i_3: unisim.vcomponents.LUT6
     generic map(
@@ -231,7 +214,7 @@ apu_reg_i_3: unisim.vcomponents.LUT6
       I3 => state(0),
       I4 => state(1),
       I5 => sw(0),
-      O => apu_reg_i_3_n_0
+      O => apu_reg
     );
 apu_reg_reg: unisim.vcomponents.FDRE
     generic map(
@@ -244,81 +227,39 @@ apu_reg_reg: unisim.vcomponents.FDRE
       Q => \apu_reg__0\,
       R => '0'
     );
-doble_i_1: unisim.vcomponents.LUT5
+cambio_i_1: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"40FF4000"
+      INIT => X"FFFF40FF00004000"
     )
         port map (
       I0 => state(2),
       I1 => state(1),
       I2 => sw(0),
-      I3 => doble_i_2_n_0,
-      I4 => doble_reg_n_0,
-      O => doble_i_1_n_0
+      I3 => cambio,
+      I4 => reset,
+      I5 => \^leds\(2),
+      O => cambio_i_1_n_0
     );
-doble_i_2: unisim.vcomponents.LUT6
+cambio_i_2: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"0000000000005D55"
+      INIT => X"0141010101010101"
     )
         port map (
-      I0 => state(1),
-      I1 => acep,
-      I2 => acep_prev_reg_n_0,
-      I3 => state(0),
-      I4 => state(2),
-      I5 => reset,
-      O => doble_i_2_n_0
+      I0 => state(2),
+      I1 => state(1),
+      I2 => state(0),
+      I3 => acep_prev_reg_n_0,
+      I4 => acep,
+      I5 => sw(0),
+      O => cambio
     );
-doble_reg: unisim.vcomponents.FDRE
+cambio_reg: unisim.vcomponents.FDRE
      port map (
       C => clk,
       CE => '1',
-      D => doble_i_1_n_0,
-      Q => doble_reg_n_0,
+      D => cambio_i_1_n_0,
+      Q => \^leds\(2),
       R => '0'
-    );
-\leds[0]_INST_0\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"AAA8"
-    )
-        port map (
-      I0 => wol_led,
-      I1 => state(2),
-      I2 => state(0),
-      I3 => state(1),
-      O => leds(0)
-    );
-\leds[1]_INST_0\: unisim.vcomponents.LUT3
-    generic map(
-      INIT => X"01"
-    )
-        port map (
-      I0 => state(1),
-      I1 => state(0),
-      I2 => state(2),
-      O => leds(1)
-    );
-\leds[2]_INST_0\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"AAA8"
-    )
-        port map (
-      I0 => doble_reg_n_0,
-      I1 => state(2),
-      I2 => state(0),
-      I3 => state(1),
-      O => leds(2)
-    );
-\leds[3]_INST_0\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"AAAB"
-    )
-        port map (
-      I0 => alea_reg_n_0,
-      I1 => state(2),
-      I2 => state(0),
-      I3 => state(1),
-      O => leds(3)
     );
 \lfsr[0]_i_1\: unisim.vcomponents.LUT2
     generic map(
@@ -380,10 +321,10 @@ resu_reg_i_1: unisim.vcomponents.LUT6
         port map (
       I0 => state(1),
       I1 => lfsr(1),
-      I2 => reset,
+      I2 => state(2),
       I3 => state(0),
-      I4 => state(2),
-      I5 => \resu_reg__0\,
+      I4 => reset,
+      I5 => \^leds\(3),
       O => resu_reg_i_1_n_0
     );
 resu_reg_reg: unisim.vcomponents.FDRE
@@ -394,16 +335,16 @@ resu_reg_reg: unisim.vcomponents.FDRE
       C => clk,
       CE => '1',
       D => resu_reg_i_1_n_0,
-      Q => \resu_reg__0\,
+      Q => \^leds\(3),
       R => '0'
     );
 update_i_1: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFFF400000004000"
+      INIT => X"FFFF200000002000"
     )
         port map (
-      I0 => state(1),
-      I1 => state(2),
+      I0 => state(2),
+      I1 => state(1),
       I2 => state(0),
       I3 => update0,
       I4 => reset,
@@ -433,7 +374,7 @@ wol_i_1: unisim.vcomponents.LUT5
     )
         port map (
       I0 => state(1),
-      I1 => wol_led,
+      I1 => \^leds\(0),
       I2 => state(2),
       I3 => wol_i_2_n_0,
       I4 => \^wol\,
@@ -465,11 +406,11 @@ wol_reg_i_1: unisim.vcomponents.LUT5
       INIT => X"FFFE0002"
     )
         port map (
-      I0 => \wol_reg__0\,
+      I0 => wol_reg_i_2_n_0,
       I1 => state(1),
       I2 => state(0),
       I3 => reset,
-      I4 => wol_led,
+      I4 => \^leds\(0),
       O => wol_reg_i_1_n_0
     );
 wol_reg_i_2: unisim.vcomponents.LUT4
@@ -478,17 +419,17 @@ wol_reg_i_2: unisim.vcomponents.LUT4
     )
         port map (
       I0 => state(1),
-      I1 => \resu_reg__0\,
+      I1 => \^leds\(3),
       I2 => \apu_reg__0\,
       I3 => state(2),
-      O => \wol_reg__0\
+      O => wol_reg_i_2_n_0
     );
 wol_reg_reg: unisim.vcomponents.FDRE
      port map (
       C => clk,
       CE => '1',
       D => wol_reg_i_1_n_0,
-      Q => wol_led,
+      Q => \^leds\(0),
       R => '0'
     );
 end STRUCTURE;
@@ -520,6 +461,10 @@ entity design_1_rulet_0_0 is
 end design_1_rulet_0_0;
 
 architecture STRUCTURE of design_1_rulet_0_0 is
+  attribute DEBUG_MODE : string;
+  attribute DEBUG_MODE of U0 : label is "TRUE";
+  attribute WIN_MODE : integer;
+  attribute WIN_MODE of U0 : label is 50;
   attribute x_interface_info : string;
   attribute x_interface_info of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute x_interface_parameter : string;

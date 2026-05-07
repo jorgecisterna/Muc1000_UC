@@ -1,0 +1,200 @@
+Pontificia Universidad Cat´olica de Chile
+Escuela de Ingenier´ıa
+Departamento de Ingenier´ıa El´ectrica
+IEE2463 Sistema electr´onicos programables
+Proyecto 1
+Primer Proyecto Zybo Z7 - Foco VHDL
+1. Actividades del Proyecto
+Re´unase con su compa˜nero de grupo y luego de revisar la literatura del curso, ayudant´ıas
+y laboratorios, plantee un proyecto que abarque el total de las siguientes 10 actividades.
+Nota: Se entender´a por ”proyecto”la implementaci´on de una idea coherente en su tar-
+jeta ZYBO y que cumpla con las actividades descritas m´as abajo. No ser´a considerado un
+”proyecto”la implementaci´on de c´odigos independientes, inconexos e incoherentes entre ellos,
+aunque estos cumplan con las actividades mencionadas m´as abajo.
+Importante: La idea del proyecto debe ser de su autor´ıa. Ud. puede basarse en
+ideas encontradas en otra fuente, siempre y cuando Ud. haga una contribuci´on
+sustantiva a la idea previamente desarrollada. Debe especificar claramente cual
+fue su aporte y cual fue el proyecto en el que se bas´o.
+Actividades Obligatorias (AO):
+Se espera que ud. sea capaz de realizar estas tres actividades para aprobar el proyecto.
+Se recomienda dise˜nar su proyecto en base a esto y comenzar por la implementaci´on de
+estas actividades, luego complementar con las actividades complementarias. Esto lo pueden
+corroborar con los puntajes asociados en las r´ubricas de evaluaci´on.
+1. AO1: Utilice components para integrar al menos tres componentes dentro de otra entity.
+2. AO2: Genere al menos 3 diferentes packages (IP-Cores) en vivado block design pa-
+ra incorporar sus c´odigos. Utilice parametos gen´ericos para la configuraci´on de sus
+packages.
+3. AO3: Utilice comunicaci´on AXI para comunicar: i) al menos un IP core esclavo creado
+por ud con un ATG maestro en Test Mode y ii) al menos un IP-core esclavo creado
+por ud. con un ATG maestro en Advance Mode.
+1
+Actividades Complementarias (AC):
+Adicionalmente, para optar a una nota 7.0, su proyecto debe considerar las siguientes
+actividades complementarias:
+1. AC1: Genere una m´aquina de estados que est´e asociada a parte o a el total de su
+proyecto.
+2. AC2: Utilice Vio e ILA para monitorear y modificar se˜nales de su proyecto.
+3. AC3: Utilice al menos 2 operadores y 2 atributos diferentes.
+4. AC4: Utilice variables para actualizar valores instantaneamente en alguna parte de la
+l´ogica programada.
+5. AC5: Utilice c´odigo secuencial y c´odigo concurrente y evidencie claramente la diferencia
+de funcionamiento de ambos tipos de c´odigos.
+6. AC6: Haga uso de functions y procedures, donde el uso de ambas rutinas explicite sus
+diferencias principales.
+7. AC7: Implemente alguna funci´on que no se haya presentado en el curso. Esto puede ser
+activar alg´un hardware integrado en la ZYBOZ7, implementar la interconexi´on entre
+el PL y alg´un perif´erico elemento del zynq (memorias, EMIO, DMA, snoop control,
+etc), utilizar una variante de AXI no visto en clases, etc.
+Nota2: Si este semestre el curso tiene n´umero impar de estudiantes y ud le toc´o tra-
+bajar solo, deber´a realizar como m´ınimo las actividades obligatorias AO1 y AO3, y luego
+escoger 3 de las 7 actividades restantes propuestas. En la escala de notas que se presenta
+m´as abajo, se asumir´a que el cumplimiento de las 2 actividades obligatorias m´as las 3 acti-
+vidades adicionales (total de 5 actividades) corresponde al 100 % de completitud del proyecto.
+2. Cumplimiento ´Etico
+Este proyecto no s´olo mide sus capacidades como programador, si no que principalmente
+tiene por objeto medir su capacidad para implementar soluciones en la plataforma integrada
+de Zynq7000. Es por ello que no est´a prohibido el uso de c´odigos encontrados en internet,
+chat GPT, ayudat´ıas, laboratorios, clases o cualquier otra fuente que ud desee consultar a
+menos que se especifique expl´ıcitamente lo contrario. Sin embargo, Ud. debe tener
+muy claro que: cualquier c´odigo, archivo, idea de proyecto, proyecto de vivado, o
+cualquier otro elemento utilizado en su proyecto obtenido de otra fuente debe
+ser debidamente referenciado.
+Si Ud. no identifica ninguna referencia para sus c´odigos, estructura de archivos, idea del
+proyecto u otro, se asumir´a que son de su propia autor´ıa. Sin embargo, si dicha informaci´on
+2
+se encuentra en internet durante la revisi´on y no ha sido referencia apropiadamente, se
+considerar´a plagio.
+Las regulaciones de ´etica que se consideran para esta revisi´on se enmarcan en:
+Compromiso al C´odigo de Honor UC: Este curso adscribe el C´odigo de Honor UC
+el que es vinculante. Todo trabajo evaluado en este curso debe ser propio. En caso de que
+exista colaboraci´on permitida con otros estudiantes, el trabajo deber´a referenciar y atribuir
+correctamente dicha contribuci´on a quien corresponda. Como estudiante es su deber conocer
+la versi´on en l´ınea del C´odigo de Honor (aqu´ı).
+Compromiso al C´odigo de ´Etica IEEE: Este curso adscribe adscribe el C´odigo de
+´Etica de la IEEE (aqu´ı). (I) Mantener los m´as altos est´andares de integridad, comportamiento
+responsable y conducta ´etica en las actividades profesionales. (II) Tratar a todas las personas
+de manera justa y respetuosa, no participar en acoso o discriminaci´on y evitar da˜nar a otros.
+(III) Esforzarse por garantizar que los colegas y compa˜neros de trabajo respeten este c´odigo.
+3. Formato de Entrega
+Para la entrega de este proyecto usted deber´a subir en un drive propio sus entregable,
+y subir solo 1 archivo PDF en canvas que contenga los siguientes 3 links: Por favor solo
+suba los archivos solicitados. Los nombres/n´umeros de grupos debe calzar con
+el n´umero de su tarjeta ZYBO entregada.
+1. Link a Archivo1: Documento en PDF de su informe. El nombre de este documento
+ser´a el nombre que usted le asign´o a su proyecto.
+2. Link a Archivo2: Link de youtube con su video (preferible) o archivo en formato de
+video (cualquiera). El nombre de este archivo ser´a el nombre que usted le asign´o a su
+proyecto.
+3. Link a Archivo 3: Un archivo .zip que contenga la carpeta ra´ız que contiene su pro-
+yecto de vitis/vivado y una capeta adicional por cada IP Core creado. Seguir la
+metodolog´ıa implementada en la ayudant´ıa complementaria de exportaci´on de archi-
+vos: Link ayudantia. Importante!: Este archivo ser´a descomprimido y el proyecto
+dentro de esta carpeta ser´a abierto por vivado/vitis. Aseg´urese de haber comprimido
+la carpeta correcta. Si ud. ha creado IP cores en diferentes proyectos de vivado, enton-
+ces las carpetas deben estar claramente separadas. En la revisi´on se abrir´a el proyecto
+principal, y se incorporar´an los IP-cores de las carpetas adicionales en la libreria de IPs
+del proyecto principal. Agregue un documento readme.txt si lo considera necesario.
+Este trabajo deber´a ser realizado en parejas. La fecha de entrega est´a publicada en la plani-
+ficaci´on del curso.
+Cualquier entrega fuera de este plazo deber´a ser justificada en la Dipre.
+Si ud. no sigue las instrucciones de archivos y sube m´as de 3 archivos, o
+los nombra de forma incorrecta, o en el formato incorrecto, o en la carpeta
+incorrecta, su nota final ser´a penalizada con 1 punto.
+3
+4. Rubrica de Evaluaci´on
+La entrega de este proyecto se compone de un informe, un video y el proyecto imple-
+mentado en la tarjeta ZYBO Z7. A continuaci´on se detalla como se evaluar´a cada parte del
+proyecto.
+4.1. Informe (35 %):
+El informe debe ser escrito en Latex, se recomienda la plataforma overleaf para ello. El
+documento plantilla del informe lo encontrar´a en el archivo zip ubicado en este repositorio.
+Una vez descargado este archivo zip, debe simplemente subirlo a overleaf (ver aqu´ı) y podr´a
+comenzar a escribir su informe. El documento plantilla es auto-explicativo e indica como
+escribir en Latex.
+Las instrucciones de como escribir el informe est´an autocontenidas en el documento plan-
+tilla. Lea el documento plantilla detenidamente.
+El c´alculo de la nota del informe est´a autocontenida en el documento plantilla.
+4.2. Video (35 %):
+El video no puede ser menor a 5min, ni exceder los 15min de duraci´on. No se
+revisar´an videos con extensi´on mayor a 15min, y ser´an evaluados autom´aticamente con nota
+m´ınima.
+El video debe estar compuesto de las siguientes partes:
+1. Descripci´on General: Una explicaci´on mediante diagrama de bloques del funciona-
+miento general (en simples palabras) de su proyecto. Esto debe ser presentado en una
+ppt (1 a 3 slides m´aximo). Identificar expl´ıcitamente que bloques (parte del diagrama)
+han sido inventados por el grupo, y cuales han sido utilizados de otros sitios web, libros,
+del curso de SEP, librerias Xilinx u otro. (tiempo recomendado: 2-5min).
+2. Actividades Logradas: Indicar expl´ıcitamente cuantas de las 10 actividades plan-
+teadas logr´o implementar. Una lista con checks. (30seg)
+3. Haciendo referencia al diagrama de bloques explicado en el punto anterior 1, mostrar
+en Vivado/Vitis los diferentes bloques utilizados en su proyecto y como ellos est´an
+interconectados. Muestre en vitis/vivado donde implement´o cada una de las
+10 actividades planteadas. Ap´oyese de im´agenes (previamente obtenidas) en una
+l´amina ppt para mostrar los resultados de simulaci´on post-implementation timing si-
+mulation o se˜nales de VIO e ILA en caso que sea necesario. (tiempo recomendado:
+5-10min)
+4. Mostrar en la tarjeta ZYBO el funcionamiento final de su circuito implementado. (tiem-
+po recomendado: 1-3min)
+4
+La nota del video se calcula como la simple suma de los puntos obtenidos m´as un punto
+base. Los puntos obtenidos se asignan de la siguiente manera:
+Implementaci´on:
+• (4puntos) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+las 3 activiadades obligatorias y las 7 actividades complementarias.
+• (3puntos) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+para las 3 actividades obligatorias y las 4-6 actividades complementarias.
+• (2 punto) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+para las 3 actividades obligatorias y 1-3 actividades complementarias.
+• (2 punto) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+para 2 actividades obligatorias y 6 actividades complementarias.
+• (1 punto) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+para 2 de las actividades obligatorias y menos de 6 actividades complementarias.
+Originalidad:
+• (1 punto) El grupo fue capaz de implementar alguna funcionalidad de la ZY-
+BO/Zynq que no fue vista en clases, laboratorios o ayudant´ıas hasta la fecha. El
+grupo debe indicar las referencias de donde aprendi´o dicha funcionalidad. Nota:
+Ud. debe explicar claramente que fue lo que aprendi´o y no fue visto en clases. Por
+ejemplo: Ud podr´ıa incorporar un IP-Core visto en clases, pero configurarlo de
+alguna manera que no fue visto en clases. Para que el punto sea valido, ud debe
+haber entendido la configuraci´on empleada y haberla explicado.
+(0.5 punto) Coherencia: El video se compone de las partes especificadas y se ajusta
+a los tiempos recomendados en cada secci´on. El lenguaje utilizado es claro, directo y
+sin lenguaje redundante (explicar lo mismo varias veces y de diferentes formas). No es
+necesario presentarse en el video.
+(0.5 punto) Calidad: El video ha sido editado y grabado con las herramientas sugeridas
+u otras equivalentes. Contiene textos explicativos en caso de ser necesario. Los videos
+no muestran personas, solo se muestra video de la pantalla PC y video de la tarjeta
+ZYBO en primer plano.
+Para grabar la pantalla de su PC en conjunto con cualquier otra fuente de entrada de
+video (por ejemplo pantalla+camara del laptop), se recomienda utilizar el software OBS.
+Podr´a encontrar decenas de tutoriales simples para utilizar OBS, como este.
+Para hacer uniones de videos, agregar texto y/o cualquier otra edici´on a su video final, se
+recomienda utilizar el software VSDC. Podr´a encontrar decenas de tutoriales simples para
+utilizar OBS, como este.
+5
+4.3. C´odigos del Proyecto (30 %):
+La nota de c´odigos se calcula como la simple suma de los puntos obtenidos m´as un punto
+base. Los puntos obtenidos se asignan de la siguiente manera:
+(0.5 punto) El block diagram de su proyecto contiene solo los bloques necesarios para
+ejecutar su proyecto. Su block diagra est´a ordenado y no contiene bloques ”basura”que
+no contribuyen a la tarea definida en su proyecto, tampoco tiene interconexiones inne-
+cesarias.
+(0.75punto) Sus c´odigos en vhdl est´an correctamente comentados. Siga estrictamente
+estas recomendaciones. Usted deber´a comentar en detalle todo c´odigo que haya sido
+escrito o modificado por su grupo. Esto debe claramente cuales son dichos archivos
+tanto en su informe como en el video.
+(0.75punto) El c´odigo considera el uso correcto de Variables, Signals, codigo secuencial,
+c´odigo concurrente, tipos de datos y vectores cuando corresponda. (cada 3 errores de
+programaci´on restar´a un 0.75 puntos).
+Adicionalmente, sumar´a alguno de estos puntos:
+• (4puntos) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+las 3 activiadades obligatorias y las 7 actividades complementarias.
+• (3puntos) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+para las 3 actividades obligatorias y las 4-6 actividades complementarias.
+• (2 punto) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+para las 3 actividades obligatorias y 1-3 actividades complementarias.
+• (2 punto) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+para 2 actividades obligatorias y 6 actividades complementarias.
+• (1 punto) El alumno logra mostrar el correcto funcionamiento de la ZYBO para
+para 2 de las actividades obligatorias y menos de 6 actividades complementarias.
+6
