@@ -1,0 +1,397 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF5B1FECD4ABF3D67",
+      "device": "xc7z010clg400-1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xlconstant_0": "",
+      "led_mux_0": "",
+      "rulet_0": "",
+      "arcade_fsm_0": "",
+      "banco_0": "",
+      "blk_mem_gen_0": "",
+      "c_counter_binary_0": "",
+      "game_selector_0": "",
+      "patron_juego_pruebau_0": "",
+      "penales_0": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "btn0": {
+        "direction": "I"
+      },
+      "btn1": {
+        "direction": "I"
+      },
+      "btn2": {
+        "direction": "I"
+      },
+      "btn3": {
+        "direction": "I"
+      },
+      "sw0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "led": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "rgb_0": {
+        "direction": "O",
+        "left": "2",
+        "right": "0"
+      }
+    },
+    "components": {
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          },
+          "CONST_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "led_mux_0": {
+        "vlnv": "xilinx.com:user:led_mux:1.0",
+        "xci_name": "design_1_led_mux_0_0"
+      },
+      "rulet_0": {
+        "vlnv": "xilinx.com:user:rulet:1.0",
+        "xci_name": "design_1_rulet_0_0"
+      },
+      "arcade_fsm_0": {
+        "vlnv": "xilinx.com:user:arcade_fsm:1.0",
+        "xci_name": "design_1_arcade_fsm_0_0"
+      },
+      "banco_0": {
+        "vlnv": "xilinx.com:user:banco:1.0",
+        "xci_name": "design_1_banco_0_0"
+      },
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "design_1_blk_mem_gen_0_0",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../../../../../Downloads/casos.coe"
+          },
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Single_Port_ROM"
+          },
+          "Port_A_Write_Rate": {
+            "value": "0"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "32"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "c_counter_binary_0": {
+        "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
+        "xci_name": "design_1_c_counter_binary_0_0",
+        "parameters": {
+          "Output_Width": {
+            "value": "5"
+          }
+        }
+      },
+      "game_selector_0": {
+        "vlnv": "xilinx.com:user:game_selector:1.0",
+        "xci_name": "design_1_game_selector_0_0"
+      },
+      "patron_juego_pruebau_0": {
+        "vlnv": "xilinx.com:user:patron_juego_pruebauno:1.0",
+        "xci_name": "design_1_patron_juego_pruebau_0_2"
+      },
+      "penales_0": {
+        "vlnv": "xilinx.com:user:penales:1.0",
+        "xci_name": "design_1_penales_0_0"
+      }
+    },
+    "nets": {
+      "arcade_fsm_0_bank_next_page": {
+        "ports": [
+          "arcade_fsm_0/bank_next_page",
+          "banco_0/selec"
+        ]
+      },
+      "arcade_fsm_0_bank_bet_request": {
+        "ports": [
+          "arcade_fsm_0/bank_bet_request",
+          "banco_0/apuesta"
+        ]
+      },
+      "arcade_fsm_0_bank_game_result": {
+        "ports": [
+          "arcade_fsm_0/bank_game_result",
+          "banco_0/resultado"
+        ]
+      },
+      "arcade_fsm_0_game_start_eins": {
+        "ports": [
+          "arcade_fsm_0/game_start_eins",
+          "led_mux_0/g1",
+          "game_selector_0/g1",
+          "penales_0/ini"
+        ]
+      },
+      "banco_0_dinero_div": {
+        "ports": [
+          "banco_0/dinero_div",
+          "arcade_fsm_0/bank_response"
+        ]
+      },
+      "banco_0_valido": {
+        "ports": [
+          "banco_0/valido",
+          "arcade_fsm_0/bank_bet_valid"
+        ]
+      },
+      "banco_0_update": {
+        "ports": [
+          "banco_0/update",
+          "arcade_fsm_0/bank_bet_ok"
+        ]
+      },
+      "arcade_fsm_0_game_start_zwei": {
+        "ports": [
+          "arcade_fsm_0/game_start_zwei",
+          "led_mux_0/g2",
+          "rulet_0/ini",
+          "game_selector_0/g2"
+        ]
+      },
+      "penales_0_update": {
+        "ports": [
+          "penales_0/update",
+          "game_selector_0/update_1"
+        ]
+      },
+      "penales_0_wol": {
+        "ports": [
+          "penales_0/wol",
+          "game_selector_0/wol_1"
+        ]
+      },
+      "game_selector_0_game_done_out": {
+        "ports": [
+          "game_selector_0/update_out",
+          "led_mux_0/update",
+          "arcade_fsm_0/game_done"
+        ]
+      },
+      "game_selector_0_game_win_out": {
+        "ports": [
+          "game_selector_0/wol_out",
+          "arcade_fsm_0/game_win"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "led_mux_0/clk",
+          "rulet_0/clk",
+          "arcade_fsm_0/clk",
+          "banco_0/clk",
+          "c_counter_binary_0/CLK",
+          "blk_mem_gen_0/clka",
+          "game_selector_0/clk",
+          "patron_juego_pruebau_0/clks",
+          "penales_0/clk"
+        ]
+      },
+      "btn1_0_1": {
+        "ports": [
+          "btn1",
+          "arcade_fsm_0/btn1"
+        ]
+      },
+      "btn2_0_1": {
+        "ports": [
+          "btn2",
+          "arcade_fsm_0/btn2"
+        ]
+      },
+      "penales_0_leds": {
+        "ports": [
+          "penales_0/leds",
+          "led_mux_0/leds_juego_1"
+        ]
+      },
+      "rulet_0_leds": {
+        "ports": [
+          "rulet_0/leds",
+          "led_mux_0/leds_juego_2"
+        ]
+      },
+      "arcade_fsm_0_leds": {
+        "ports": [
+          "arcade_fsm_0/leds",
+          "led_mux_0/leds_fsm"
+        ]
+      },
+      "led_mux_0_leds_final": {
+        "ports": [
+          "led_mux_0/leds_final",
+          "led"
+        ]
+      },
+      "rulet_0_update": {
+        "ports": [
+          "rulet_0/update",
+          "game_selector_0/update_2"
+        ]
+      },
+      "btn0_1": {
+        "ports": [
+          "btn0",
+          "arcade_fsm_0/btn0",
+          "rulet_0/acep",
+          "patron_juego_pruebau_0/bt0",
+          "penales_0/jugar"
+        ]
+      },
+      "arcade_fsm_0_game_start_drei": {
+        "ports": [
+          "arcade_fsm_0/game_start_drei",
+          "led_mux_0/g3",
+          "game_selector_0/g3",
+          "patron_juego_pruebau_0/start"
+        ]
+      },
+      "rulet_0_wol": {
+        "ports": [
+          "rulet_0/wol",
+          "game_selector_0/wol_2"
+        ]
+      },
+      "arcade_fsm_0_bank_game_aviso": {
+        "ports": [
+          "arcade_fsm_0/bank_game_aviso",
+          "banco_0/acti"
+        ]
+      },
+      "c_counter_binary_0_Q": {
+        "ports": [
+          "c_counter_binary_0/Q",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "arcade_fsm_0/rst",
+          "banco_0/reset",
+          "rulet_0/reset",
+          "led_mux_0/rst",
+          "game_selector_0/rst",
+          "patron_juego_pruebau_0/rst",
+          "penales_0/reset"
+        ]
+      },
+      "sw0_1": {
+        "ports": [
+          "sw0",
+          "arcade_fsm_0/sw",
+          "rulet_0/sw",
+          "patron_juego_pruebau_0/sw",
+          "penales_0/sw"
+        ]
+      },
+      "blk_mem_gen_0_douta": {
+        "ports": [
+          "blk_mem_gen_0/douta",
+          "patron_juego_pruebau_0/patron"
+        ]
+      },
+      "patron_juego_pruebau_0_leds": {
+        "ports": [
+          "patron_juego_pruebau_0/leds",
+          "led_mux_0/leds_juego_3"
+        ]
+      },
+      "patron_juego_pruebau_0_valid": {
+        "ports": [
+          "patron_juego_pruebau_0/valid",
+          "game_selector_0/update_3"
+        ]
+      },
+      "patron_juego_pruebau_0_done": {
+        "ports": [
+          "patron_juego_pruebau_0/wol",
+          "game_selector_0/wol_3"
+        ]
+      },
+      "patron_juego_pruebau_0_rgb": {
+        "ports": [
+          "patron_juego_pruebau_0/rgb",
+          "rgb_0"
+        ]
+      },
+      "btn3_1": {
+        "ports": [
+          "btn3",
+          "arcade_fsm_0/btn3"
+        ]
+      }
+    }
+  }
+}
