@@ -1,0 +1,713 @@
+1
+Pontificia Universidad Católica de Chile
+Manual de Práctica I
+ING1001
+2
+Tabla Contenido
+1). Introducción .............................................................................................................................................................. 4
+2). Objetivo..................................................................................................................................................................... 4
+3). Requisitos de la Práctica ............................................................................................................................................ 6
+3.1. Preinscripción ...................................................................................................................................................... 6
+3.2. Duración.............................................................................................................................................................. 6
+3.3. Interacción con 3 Trabajadores de la Empresa ..................................................................................................... 7
+3.4. Inscripción de la Sigla ING1001.......................................................................................................................... 8
+3.5. Validación de Práctica Técnico-Profesional como Práctica I ............................................................................... 8
+4). Prácticas No Permitidas ............................................................................................................................................. 9
+5). Procedimiento de Realización: Informe................................................................................................................... 10
+5.1. Carta de Presentación – Seguro Escolar ............................................................................................................ 10
+5.2. Confirmación de Práctica .................................................................................................................................. 10
+5.3. Evaluación de la Empresa ................................................................................................................................. 10
+5.4. Redacción del Informe ...................................................................................................................................... 11
+5.5. Portada del Informe y Formulario de Evaluación de la Universidad .................................................................. 11
+5.6. Descargar Certificados de Entrega del Informe ................................................................................................. 11
+5.7. Entrega del Informe a Través de Canvas UC ..................................................................................................... 12
+6). Formato del Informe................................................................................................................................................ 13
+6.1. Extensión (N° de páginas) ................................................................................................................................. 13
+6.2. Tamaño Hoja y Márgenes ................................................................................................................................. 13
+6.3. Fuente ............................................................................................................................................................... 14
+6.4. Interlineado ....................................................................................................................................................... 14
+6.5. Numeración de Páginas ..................................................................................................................................... 14
+6.6. Numeración de Títulos y Subtítulos................................................................................................................... 15
+6.7. Formato ............................................................................................................................................................. 15
+7). Otros Elementos que Debe Contener el Cuerpo del Informe ................................................................................... 15
+7.1. Índice ................................................................................................................................................................ 15
+7.2. Referencias Bibliográficas ................................................................................................................................. 17
+7.3. Anexos .............................................................................................................................................................. 18
+8). Evaluación............................................................................................................................................................... 18
+8.1. Criterios de Evaluación ..................................................................................................................................... 18
+8.2. Publicación de Resultados ................................................................................................................................. 22
+8.3. En Caso de Resultado Objetado ........................................................................................................................ 22
+8.4. Actualización de Calificación en Ficha Académica y Seguimiento Curricular................................................... 25
+9). Vigencia de la Práctica y Fechas de Entrega del Informe ........................................................................................ 25
+3
+Índice de Tablas
+5.7.1 Calendario de Evaluación Práctica I………………………………………………………………………………..13
+8.1.2 Pauta Evaluación Informe Escrito…………………………………………………………………………….........19
+8.3.3 Calendario Proceso Práctica I………………………………………………………………………………………24
+4
+1). Introducción
+Este manual contiene información fundamental para la realización de la Práctica I. Es muy
+importante revisar y leer atentamente la información contenida en este manual, pues es
+responsabilidad de cada estudiante estar en conocimiento de los procesos de su formación
+académica. Si una vez revisado el manual la información generara dudas, puede acercarse a la
+Dirección de Pregrado a resolverlas o escribir una solicitud de propósito general en SIDING.
+2). Objetivo
+El objetivo de la Práctica I es poner al estudiante en contacto con los/las trabajadores/as de
+una empresa o institución social, para que, a través de esta experiencia desarrolle un análisis crítico
+de la situación del/la trabajador/a no calificado, tanto a nivel particular (empresa en sí) como
+nacional. Por otro lado, en el caso de las prácticas obreras, realizadas en organizaciones con fin
+social, se espera que el/la estudiante sea capaz de analizar la situación del país con respecto a la
+problemática abordada por la institución en que desarrolla la práctica, el rol que la institución
+cumple y el impacto de esta. La actividad que debe desempeñar es de tipo manual o de servicios
+que ordinariamente presta personal no calificado y sin ejercer supervisión directa o indirecta sobre
+otros.
+Durante la Práctica el/la estudiante debe:
+1. Conocer condiciones laborales y sociales del trabajador no calificado en Chile.
+2. Construir una opinión crítica y fundamentada respecto de situaciones y necesidades
+del/la trabajador/a no calificado en Chile, que será útil para su futuro desempeño
+profesional.
+3. En el caso de las Prácticas Sociales:
+5
+a. Conocer el estado de la problemática abordada por la institución en donde se
+realiza la práctica.
+b. Analizar la importancia del rol de las empresas sociales en el país.
+c. Conocer las dificultades que presentan las instituciones con fin social.
+4. Desarrollar habilidades para comunicar en forma escrita sus opiniones y
+conclusiones a partir de la experiencia práctica.
+Competencias:
+Al finalizar la experiencia de Práctica I el/la estudiante será capaz de:
+• Señalar las principales características, motivaciones y problemas del/la trabajador/a
+no calificado en Chile, en una industria en particular.
+• Identificar las principales características, motivaciones y problemáticas de la
+institución en donde se realiza la práctica, como también de sus trabajadores/as y
+voluntarios/as.
+• Caracterizar los estilos de interacción, que se producen entre diversos niveles
+jerárquicos, al interior de una empresa u organización.
+• Caracterizar la relación existente entre trabajadores/as, voluntarios/as y
+beneficiarios/as dentro de la organización.
+• Identificar situaciones en que las condiciones laborales y sociales del/la trabajador/a
+no calificado/a y/o los/las voluntarios/as se ven afectadas.
+• Analizar situaciones en que se podrían introducir mejoras a las condiciones laborales
+y sociales del/la trabajador/a no calificado/a en Chile a nivel local (empresa) y
+nacional (país).
+• Deducir consideraciones y acciones que se podrían realizar, como ingeniero/a, en el
+futuro para favorecer el bienestar laboral y social del/la trabajador/a no calificado
+y/o voluntario/a.
+• Comunicar de manera efectiva los resultados y análisis de la experiencia práctica de
+manera escrita.
+6
+3). Requisitos de la Práctica
+3.1. Preinscripción:
+Antes de realizar la Práctica debe preinscribir la actividad en Siding>Procesos
+Pregrado>Ciclo 1>Práctica I >Preinscripción, con al menos un mes de anticipación y esperar su
+aprobación por parte de la Dirección de Pregrado. Con el paso anterior, tendrá seguridad de que las
+actividades que realizará son válidas como Práctica I.
+Es importante realizar el proceso indicado anteriormente, ya que, si el/la estudiante no
+realiza la preinscripción oportunamente, es decir, antes de comenzar la práctica (o al menos el
+mismo día de inicio de ésta), el sistema no le permitirá realizar el trámite una vez iniciada la
+actividad. No realizarlo impedirá que cuente con documentos necesarios para la entrega del informe
+escrito (Certificado de entrega y registro de autorización de la práctica).
+Si el/la estudiante inicia la práctica, sin tener la respuesta de la preinscripción, lo hace bajo
+su responsabilidad, asumiendo el riesgo de un eventual rechazo.
+Los y las estudiantes que pertenecen al Programa para la Inclusión de Alumnos con
+Necesidades Especiales (PIANE), pueden contactar al Equipo de Acompañamiento de la Dirección
+de Pregrado, al mail (orientaciondipre.ing@uc.cl) antes de preinscribir y/o realizar la Práctica.
+3.2. Duración:
+La Práctica I tendrá una duración mínima de un mes:
+a. 160 horas de trabajo efectivo en régimen jornada completa, es decir, mínimo un
+mes calendario (4 semanas = 8 horas diarias en mínimo 20 días hábiles). Dentro de
+las 8 hrs. diarias, no se considera la colación.
+Si por disposición de la empresa, la jornada de práctica considera trabajar los
+sábados y/o domingos o menos horas laborales semanales, esto es válido para efectos
+7
+de duración de la práctica. Sin embargo, para completar la jornada exigida, el/la
+estudiante deberá trabajar mínimo un mes para cumplir con el requisito de práctica
+I.
+b. 200 horas de trabajo efectivo en régimen jornada parcial distribuidas en un
+máximo de 4 meses.
+Se entiende por jornada parcial, cualquier régimen distinto a la jornada completa.
+En el caso de presentar ausentismo por motivo de salud, el/la estudiante deberá
+informar a su supervisor/a y presentar certificado médico y/o licencia médica, según
+lo que solicite la empresa. Al término de la Práctica I, deberá recuperar los días para
+completar con el tiempo de duración exigido.
+El horario y tiempo de duración de la práctica debe permitir dar continuidad a la
+actividad realizada, es por ello que se exige precisar con exactitud, en el informe o
+en la evaluación del/la supervisor/a, el período de realización de la práctica, así como
+también el horario en que desempeñaron sus tareas, ya que éste es el primer criterio
+para rechazar una práctica. Normalmente los y las estudiantes realizan la práctica en
+el período de vacaciones, lo que les permite adaptarse a los requerimientos de la
+Empresa y de la Universidad.
+3.3. Interacción con 3 Trabajadores de la Empresa
+El/la estudiante deberá trabajar con, a lo menos, 3 trabajadores más que realizan trabajo no
+calificado en la empresa durante el período de duración de su práctica, es decir, personas que estén
+contratadas durante todo el año por la empresa. El no cumplimiento de este requisito será causal de
+reprobación. En el caso de realizar una Práctica Social, el/la estudiante debe trabajar, a lo menos,
+con 1 trabajador/a que realice trabajo no calificado. Dicho trabajador/a no puede ser otro/a
+estudiante practicante.
+8
+3.4. Inscripción de la Sigla ING1001
+El/la estudiante deberá inscribir la sigla ING1001, a través de Banner, en el periodo de
+inscripción de cursos, correspondiente al semestre en el que entregará el informe, para luego
+adjuntar y subir al sistema de gestión académica (Canvas UC). Se recomienda, fuertemente, que esta
+práctica sea realizada al término del primer año de carrera.
+Se les recuerda que la Práctica I es parte de los requisitos para obtener el grado de
+Licenciado en Ciencias de la Ingeniería.
+3.5. Validación de Práctica Técnico-Profesional como Práctica I
+Los y las estudiantes que hayan egresado de enseñanza media de un colegio técnico
+profesional, y tengan realizada su práctica de especialidad, podrán pedir autorización al Comité de
+Pregrado para validar la práctica I, de acuerdo con las actividades efectuadas en su periodo de
+práctica de especialidad, siempre y cuando, las actividades que haya desempeñado cumplan con el
+objetivo y requisitos exigido a los y las estudiantes que realizan la práctica I.
+La solicitud se debe presentar, a través de Propósito General, con a lo menos 2 meses de
+anterioridad a la entrega del informe, adjuntando Certificado o Ficha de Evaluación que emite la
+empresa, Informe de Práctica entregado en su periodo de escolaridad (solo si lo hubiera realizado)
+e indicar la siguiente información:
+• Dónde (ciudad, empresa, giro).
+• Cuando (periodo de comienzo y término, horas cronológicas).
+• Qué (detalles de labores desarrolladas).
+• Con quién (persona de contacto, teléfono y email).
+• Trabajadores (cuántos, exigencias del cargo, niveles).
+Es importante señalar que, si el Comité aprueba la solicitud, el/la estudiante deberá inscribir
+9
+la sigla ING1001 en el periodo de inscripción de cursos, para que realice el proceso de elaboración
+y entrega de informe, a través del sistema de gestión académica (Canvas UC), en las fechas
+correspondientes.
+Los y las estudiantes tienen un año, desde el ingreso a la carrera, para poder realizar el
+proceso de validación de su práctica.
+4). Prácticas No Permitidas
+Con el fin de cumplir con los objetivos establecidos para la Práctica I, no son permitidas
+como Práctica las actividades que se indican a continuación o trabajos similares a estos:
+• Prácticas en el extranjero.
+• Trabajos sociales, misiones.
+• Prácticas en empresas de propiedad de algún familiar directo (papá, mamá y hermanos).
+• Prácticas bajo la supervisión de algún familiar de cualquier nivel (tíos, primos, etc.).
+• Promotor, vendedor, garzón, cajero, operario de computador, operario en bases de datos y
+archivos, secretaria, supervisor de alguna tarea, realizador de informes (a mano o en
+computador), atención al cliente, repartidor.
+• Investigador o recopilador de información, encargado de tomar datos.
+• En general, trabajos de escritorio y otros trabajos en los cuales no se cumpla el objetivo de
+la práctica.
+Las prácticas realizadas en el extranjero no serán aceptadas, sin embargo, los y las
+estudiantes de nacionalidad extranjera que quieran realizar su Práctica en su país de origen podrán
+pedir autorización al Comité de Pregrado, siempre y cuando, las actividades cumplan con el
+objetivo de la práctica. La solicitud se debe presentar a través de propósito general, antes de realizar
+dicha práctica, adjuntando la siguiente información:
+• Dónde (país, ciudad, empresa, giro).
+• Cuando (comienzo, fin, intensidad, turnos).
+• Qué (detalles de labores a desarrollar).
+• Con quién (persona de contacto, teléfono y email).
+• Trabajadores (cuántos, exigencias del cargo, niveles).
+10
+5). Procedimiento de Realización: Informe
+5.1. Carta de Presentación y Seguro Escolar
+Es muy probable que la empresa pida al estudiante una carta de solicitud de práctica y
+seguro escolar en caso de accidentes. Ésta se solicita en Siding>Procesos
+Pregrado>Solicitudes>Carta. Para esta solicitud el/la estudiante debe saber el nombre de la
+empresa, nombre y cargo de la persona a la que debe dirigir la carta.
+Una vez sea revisada y gestionada, dentro de 3 días hábiles, el/la estudiante recibirá un
+correo para que pueda descargar la carta en Siding>Procesos Pregrado>Solicitudes>Carta.
+Esta carta indica, brevemente, de qué trata la Práctica I, la obligatoriedad de realizarla como
+parte de su formación como ingeniero/a y la cobertura del seguro escolar. En Siding podrá pedir
+tantas cartas como necesite.
+5.2. Confirmación de Práctica.
+De acuerdo con el punto 3.1 de este manual, una vez que la preinscripción en Siding es
+aceptada por la Dirección de Pregrado y se ha finalizado la práctica, el/la estudiante deberá contestar
+una encuesta de ambiente laboral en su práctica. Posteriormente deberá realizar el paso “Confirmar
+realización de la práctica”, en donde se solicitará ingresar nuevamente la información relacionada
+con la práctica, entre ellos la fecha en que se llevó a cabo. Se recuerda a los y las estudiantes realizar
+este paso, únicamente, después de finalizar su práctica, cuando estén seguros de las fechas de inicio
+y término de su práctica. Luego de ese paso, podrá realizar el paso 5.6, detallado más adelante en
+el manual.
+5.3. Evaluación de la Empresa.
+Durante la práctica el/la estudiante debe presentar el Formulario Evaluación de la Empresa
+(disponible en Siding) a su supervisor/a directo/a para que lo complete, el que será incorporado,
+11
+posteriormente, al informe de la práctica. La evaluación de la empresa o institución debe estar
+timbrada y firmada por el/la supervisor/a, de lo contrario el informe SERÁ RECHAZADO.
+En caso de que la empresa no posea timbre, se debe presentar firmado el Anexo 1, que está
+junto a la Evaluación de la Empresa (documento disponible en Siding). Este documento debe estar
+firmado por el/la supervisor/a del/la estudiante y profesional o colaborador/a de la empresa que su
+cargo no sea par del/la estudiante y que pueda respaldar la falta de timbre, como, por ejemplo:
+jefe/a de la empresa, superior o par del supervisor/a, encargado/a de recursos humanos.
+Cualquier documento, deberá ir adjunto al informe inmediatamente después de la
+evaluación de la empresa.
+5.4. Redacción del Informe
+Durante la práctica el/la estudiante debe redactar un informe con un máximo de 15 páginas,
+[desde la introducción hasta las conclusiones (sin considerar portada, tablas de contenido,
+referencias bibliográficas y anexos)] donde se refleje la experiencia y opiniones que el/la estudiante
+se ha formado al realizar su práctica. El informe debe ser redactado de acuerdo con las
+consideraciones de los puntos 6 y 7 de este manual. Se recomienda redactar el informe durante la
+realización de la práctica.
+5.5. Portada del Informe y Formulario de Evaluación de la Universidad
+Ambos documentos se encuentran disponibles en Siding>Pregrado>Ciclo 1>Otros
+requisitos de licenciatura > Práctica I, los cuales debes descargar y completar para adjuntar junto a
+su informe.
+5.6. Descargar Certificados de Entrega del Informe
+Una vez finalizada la práctica, deberá realizar el paso “Confirmación de realización de la
+12
+Práctica I” donde podrá generar el certificado de entrega de Práctica I (Siding>Procesos
+Pregrado>Ciclo 1 >Práctica I >Preinscripción) y seleccionar la opción “Generar certificado de
+entrega del informe”.
+Se descargará un archivo PDF, con 2 hojas, los que corresponden al Certificado de entrega
+del informe y el Registro de autorización de la práctica, Este archivo debe adjuntarlo al informe
+que entregará para ser evaluado/a.
+Si tiene problemas con la descarga, verifique el bloqueo de las ventanas emergentes en su
+navegador (pop-up). Una vez que las desbloquee debe pinchar la opción “Descargar copia del
+certificado de entrega” ubicada abajo del recuadro de pre- inscripción en “Acciones adicionales”.
+5.7. Entrega del Informe a Través de Canvas UC
+1. El informe debe ser entregado a través de la plataforma de Canvas UC en el curso
+ING1001, subiendo 2 archivos en versión PDF:
+• Formulario de Evaluación de la Empresa: El documento debe estar
+timbrado y firmado por el supervisor/a1.
+• Informe de Práctica: debe contener los siguientes archivos (respetando el
+orden indicado):
+I. Certificado de Entrega descargado en Siding.
+II. Registro de Autorización de la Práctica (se descarga junto al certificado
+de entrega).
+III. Formulario de la Evaluación de la Universidad.
+IV. Formulario de la Evaluación de la Empresa.
+V. Portada del Informe (completo).
+VI. Tabla de Contenido
+VII. Cuerpo del Informe.
+VIII. Referencias Bibliográficas.
+IX. Anexos
+Si el informe presentado no cumple con lo anteriormente indicado, no será evaluado y el curso
+1 En el caso que la empresa no posea timbre, leer las indicaciones del punto 5.3 del manual
+13
+será REPROBADO.
+2. Las fechas para la entrega de su informe, en la plataforma de Canvas UC, son las
+siguientes:
+5.7.1 Calendario de Evaluación Práctica I
+Semestres
+Capacitación Entrega
+de Informe
+(Presencial)
+Fecha de Entrega de
+Informe
+(por el o la estudiante)
+Fecha de Entrega de
+Resultado
+(por Canvas)
+1° Semestre Durante el mes de Marzo Marzo, hasta el último día
+del mes.
+Último día hábil de
+Abril.
+2° Semestre Durante el mes de Agosto Agosto, hasta el
+último día del mes.
+Último día hábil de
+Septiembre.
+Fuente: Elaboración propia.
+Finalmente, debe esperar los resultados de la corrección de la práctica, los cuales se
+publican a través de la plataforma de Canvas, en el periodo indicado en el calendario anual para
+proceso de práctica I. La calificación del curso se visualizará en la carga académica del/la
+estudiante, al término del semestre según corresponda.
+6). Formato del Informe
+6.1. Extensión (N° de páginas)
+El cuerpo del informe debe tener una longitud máxima de 15 páginas [desde la introducción
+hasta las conclusiones (sin considerar portada, tablas de contenido, referencias bibliográficas y
+anexos)]. Lo importante del informe es la calidad de éste y no cuántas hojas escriba el/la estudiante
+siempre y cuando no sobrepase el máximo permitido.
+6.2. Tamaño Hoja y Márgenes
+El informe se debe hacer en tamaño carta y con un margen de 2,5 cm en todos lados, con
+sangría en cada primera línea, de cada párrafo, de 1,27 cm y párrafos justificados.
+Se recomienda que no utilice la barra espaciadora para realizar los márgenes y sangría,
+14
+estas se deben configurar en el programa de escritura utilizado.
+6.3. Fuente
+Se utilizará letra Times New Roman, tamaño 12, para todo el texto, incluyendo títulos y
+subtítulos. En los anexos, ilustraciones y tablas puede usar un tamaño reducido, Time New Roman
+10.
+Se debe reservar el uso de cursiva para palabras, que tengan su origen, en un idioma
+diferente al español.
+6.4. Interlineado
+Se utilizará, un interlineado doble, en todo el informe, incluyendo números de tablas y
+figuras, títulos, subtítulos y la lista de referencias. No se debe agregar un espacio adicional antes o
+después de los párrafos, ni realizar saltos de línea extras entre párrafos o entre títulos y subtítulos,
+salvo en los siguientes casos:
+1. Tablas: En el cuerpo de la tabla puede utilizar interlineado sencillo o 1,5. Sin
+embargo, debe seguir utilizando interlineado doble en el número de la tabla, título y
+notas.
+2. Figuras: En el texto de la figura puede utilizar interlineado sencillo o 1,5. Utilizar
+interlineado doble en el número de figura, título y notas.
+3. Notas al pie de página: Se puede utilizar interlineado sencillo y una fuente más
+pequeña, que el cuerpo del texto, como Times New Roman 10.
+6.5. Numeración de Páginas
+Hay que numerar las páginas a partir de la portada. Para la numeración, debe usar números
+cardinales, colocados en el margen superior derecho de cada hoja.
+15
+6.6. Numeración de Títulos y Subtítulos
+Los títulos y subtítulos deben tener un esquema de numeración, los cuales deben seguir las
+siguientes características:
+• Nivel 1: Centrado, Negrita y Cada Palabra Iniciando en Mayúscula.
+• Nivel 2: Alineado a la Izquierda, Negrita y Cada Palabra Iniciando en Mayúscula.
+• Nivel 3: Alineado a la Izquierda, Negrita, Cursiva y Cada Palabra Iniciando en
+Mayúscula.
+• Nivel 4: Alineado a la Izquierda, Negrita, Cada Palabra Iniciando en Mayúscula,
+con Sangría de 1.27 cm y Punto Final.
+6.7. Formato
+El informe debe tener un formato perfecto. En este punto se evalúa: Ortografía, Redacción,
+Índice (general, de tablas y de figuras), Formalidad del Lenguaje, Márgenes, Justificación,
+Interlineado, Letra, Títulos y Presentación de tablas y figuras.
+El Informe, en primera instancia, puede ser objetado por ortografía y/o formato,
+independiente si cumple con el puntaje mínimo de aprobación. El informe debe estar redactado
+en primera persona en forma activa.
+7). Otros Elementos que Debe Contener el Cuerpo del Informe
+7.1. Índice
+Debe incluir:
+1. Tabla de Contenido: Es una lista de las partes que conforman el informe en el orden en
+que se presentan. Incluye todos los elementos tales como: los títulos de los capítulos, partes
+o secciones, conclusiones, referencias bibliográficas y anexos. La organización de la tabla
+de contenido debe reflejar la del texto, incluso en sentido espacial, es decir, si en el texto el
+párrafo X es una subdivisión menor del capítulo A, esto deberá reflejarse en las sangrías
+16
+(1,27 cm).
+La tabla de contenido se escribe una vez finalizado el trabajo, para que los distintos
+capítulos y subcapítulos queden con la paginación y la estructura definitiva.
+El formato de la tabla de contenido puede ser de tamaño reducido, al igual que tablas y
+figuras, por lo que puede utilizar letra Time New Roman 10 con interlineado sencillo. No
+se puede mezclar formato reducido o formato regular.
+2. Índice de Tablas: Es preciso en listar las tablas. El detalle de la lista de tablas debe figurar
+en la página siguiente de la tabla de contenido, se registra el número y título exacto de la
+tabla y el número de la página en que aparece.
+Las tablas se numeran con números árabes seguidos de un punto y un número árabe
+correlativo, empezando desde 1 en cada capítulo. Ej. 5.2 corresponde a la tabla No. 2 del
+capítulo no. 5.
+3. Índice de Ilustraciones: Las ilustraciones corresponden a cualquier figura o forma visual
+gráfica, excluyendo las tablas. Pueden ser gráficos de líneas, curvas, barras, circulares,
+mapas, diagramas, fotografías, etc. Las indicaciones son las mismas que para las tablas. Ej.
+Figura 3.2, significa la segunda figura del capítulo III.
+El índice de ilustraciones debe colocarse en la página siguiente de la tabla de contenido; se
+registra el número y título exacto de la ilustración y el número de la página en que aparece.
+El cuerpo del informe puede incluir ilustraciones, tablas o gráficos, los que se deben
+numerar en un orden lógico, identificar con un título y mencionar la fuente de los datos.
+Otros elementos que se pueden incluir en el cuerpo de la práctica y que aportan al texto,
+son las citas bibliográficas y las notas.
+4. Citas Bibliográficas: Cuando realiza el informe puede citar a otros autores, ya sea para
+17
+corroborar una idea propia o para justificar alguna interpretación, estas se denominan "citas
+bibliográficas".
+Las citas deben ser mediante norma APA 7° edición, por lo que debe tener el mismo formato
+del informe. Más información sobre el uso de estas normas en: http://bibliotecas.uc.cl >
+Guías temáticas >Uso de la información: búsqueda, citar y talleres.> Bibliotecas UC - Guía
+de Normas APA7.
+a. Notas: Las notas son un conjunto de observaciones que no forman parte del texto,
+pero que contribuyen a una mejor interpretación de este. Son advertencias,
+comentarios, indicaciones, etc. que explican la materia, se ubican fuera del texto y
+corresponde a las “nota al pie”. Suelen ser de gran utilidad en un trabajo escrito,
+pero no se debe abusar de ellas.
+Las funciones básicas de las notas son:
+• Indicar el origen de una cita ya que, si se indica en el mismo texto, se dificulta la
+lectura de la página.
+• Añadir otras indicaciones bibliográficas de refuerzo a un tema discutido en el texto
+(por ejemplo: “sobre este tema ver también el libro tal”).
+• Hacer referencias: al tratar un tema puede ponerse “cfr” que significa “confróntese”
+y remite a otro libro o a otro capítulo de la misma práctica.
+• Ampliar las afirmaciones que se han hecho en el texto.
+• Corregir las afirmaciones que se han hecho en el texto. Se puede estar seguro de lo
+que se afirma, pero estar consciente de que alguien puede tener otro punto de vista
+o no estar de acuerdo.
+• Indicar la traducción de una cita.
+7.2. Referencias Bibliográficas
+Incluye fuentes consultadas, citadas o anotadas a lo largo del cuerpo del informe de práctica.
+La bibliografía se coloca al final del cuerpo del informe y deberá ordenarse, ya sea alfabéticamente,
+18
+de acuerdo con los apellidos de los autores, intercalando las citas bibliográficas que comienzan por
+título (las cuales son alfabetizadas por la primera palabra del título que no sea un artículo) o en
+orden cronológico, de acuerdo con el año de publicación cuando haya varias referencias del mismo
+autor.
+Más información sobre el uso de estas normas en: http://bibliotecas.uc.cl > Guías temáticas
+>Uso de la información: búsqueda, citar y talleres.> Bibliotecas UC - Guía de Normas APA7.
+7.3. Anexos
+Constituye toda aquella información adicional al texto que tiene por objeto complementarlo,
+pero que no es indispensable para su comprensión. En general, se debe incluir en los anexos todos
+los datos y documentos que harían poco ágil la lectura del texto. Los anexos se paginan en forma
+correlativa al texto.
+En el caso que se incorporen figuras o tablas deben incorporarse en los índices
+correspondientes.
+En los anexos se pueden incorporar datos complementarios como planos, fotos, planillas, u
+otro tipo de elementos que haya utilizado o realizado el/la estudiante durante su práctica.
+8). Evaluación
+8.1. Criterios de Evaluación
+Lo primero que se considera al momento de la evaluación, es verificar si las actividades
+realizadas por el/la estudiante cumplen los objetivos de la Práctica I, de no ser así, la práctica no
+será válida y no será corregida.
+Si la práctica realizada cumple con los objetivos, la calificación final se obtendrá a partir del
+puntaje obtenido como resultado de la revisión del informe.
+El informe debe reflejar la experiencia y opiniones que el/la estudiante se ha formado al
+19
+realizar su práctica. Este informe debe tener un máximo de 15 páginas, entre introducción y
+conclusiones, es decir, sin considerar la portada, índices, referencias bibliográficas y anexos. Se
+evalúa la formulación y calidad del documento escrito. Lo anterior, en función de la pauta de
+evaluación respectiva, contenida en este documento.
+Debe tener cero faltas de ortografía y cumplir con todas las exigencias de contenido y
+formato establecidas en este manual y en la pauta de evaluación.
+8.1.2 Pauta Evaluación Informe Escrito
+ITEM
+PTJE.
+MAX
+(Obrera)
+PTJE.
+MAX
+Social)
+PTJE.
+REVISIÓN
+Informe: El informe puede ser objetado por una deficiente presentación. En este punto se evalúa: Ortografía,
+Redacción Índice (general, de tablas y de figuras), Formalidad del Lenguaje, Márgenes, Justificación e
+interlineado, Letra, Títulos y Presentación de tablas y figuras.
+Introducción (orientar al lector respecto de los aspectos que tratará en el
+informe, los principales aprendizajes que extrae e indicar también cómo se
+consiguió la práctica)
+5/100 5/10
+Descripción General y estructura de la Empresa 5/100 5/10
+Descripción general/Propiedad/Ubicación 0,5 0,5
+Tamaño (Pymes, Mediana, Grande)-Actividad-Productos 0,5 0,5
+Estructura de la institución (áreas) 1 1
+Organigrama (cargos) y explicación 2 2
+Descripción del área donde trabajó el estudiante 1 1
+Grupo humano con el cual el/la estudiante trabajó 5/100 5/10
+Descripción de las personas con que trabajó (características sociales, educacionales, etc.) 2 2
+Relación entre el/la estudiante y los/las trabajadores/as (en el caso de la práctica social incluir a
+otros/as voluntarios/as y beneficiarios/as según corresponda)
+(3) (3)
+Actividades desarrolladas en la práctica 10/100 10/10
+Descripción del trabajo realizado 3 3
+Descripción del proceso de adaptación a la institución y a la práctica 3 3
+Opinión respecto de las actividades realizadas, en términos de su dificultad, conocimientos
+requeridos y esfuerzo invertido por el/la trabajador/a
+4 4
+Análisis de la percepción del/la trabajador/a sobre el trabajo y relación entre
+compañeros/as.
+10/100 10/10
+Análisis de la relación con el trabajo
+• Opinión
+• Expectativas
+• Creencias del/la trabajador/a o voluntario/a sobre su trabajo
+5 3
+20
+Análisis de la opinión del/la beneficiario/a
+• Opinión
+• Expectativas
+• Creencias del/la beneficiario/a sobre la ayuda recibida
+0 2
+Análisis de la interacción entre los/las compañeros/as de trabajo
+Análisis de la interacción de los/las trabajadores/as y voluntarios/as con los/las beneficiarios/as
+5
+0
+3
+2
+Relación entre los/las jefes/as (inmediatos y superiores) y los/las trabajadores/as 15/100 15/10
+Descripción considerando el punto de vista del/la trabajador/a (relación y opiniones)
+Descripción considerando el punto de vista de los/las jefes/as (cómo administra la
+autoridad)
+5 5
+Análisis de la implicancia de esta relación 10 10
+Condiciones laborales y garantías sociales habilitadas en la empresa 20/100 20/10
+En el caso de existir describir:
+• Organización Sindical.
+• Sistema de remuneración e incentivos.
+• Sistema de calificación del personal.
+• Servicios sociales.
+• Programas de perfeccionamiento y capacitación.
+• En el caso de no existir dichas medidas, analizar cómo sería su implementación y
+funcionamiento.
+5 5
+Descripción de la opinión de los/las trabajadores/as al respecto 5 5
+Análisis y comparación de la situación de la institución respecto de la situación a nivel
+nacional
+• Leyes laborales que regulan a esos/as trabajadores/as,
+• Tipo de calificación y certificación existente para el rubro,
+Características de seguridad y protección laboral, entre otros.
+10 10
+Conclusiones: análisis y sugerencias 30/100 30/10
+Principales aprendizajes de la práctica y experiencia en una organización de este tipo 10 10
+Principales dificultades del/la trabajador/a no calificado y/o de una institución con fin social y
+sus posibles causas:
+• Referirse a la situación particular de los/las trabajadores/as con los/las que
+comparte (en el caso de las prácticas solidarias referirse también a otros/as voluntarios/as
+beneficiarios/as según corresponda).
+• Situación general de la institución en relación con el/la trabajador/a no
+calificado (en el caso de las prácticas solidarias referirse también a otros/as voluntarios/as
+beneficiarios/as según corresponda).
+• Políticas públicas existentes frente al trabajo no calificado y frente a las
+instituciones con fin social.
+10 10
+Principales sugerencias para la mejora de la situación del/la trabajador/a no calificado/a
+y/o de las instituciones con fin social:
+• Referirse a mejoras específicas para los/as trabajadores/as con los/las que
+compartió y/o para la institución en que trabajó.
+• Mejoras a la situación general de la empresa en relación con el/la trabajador/a
+no calificado y/o para las instituciones con fin social en el país,
+• Mejoras a las políticas públicas frente al trabajo no calificado y frente a las
+instituciones con fin social.
+10 10
+100 100
+Fuente: Elaboración propia.
+21
+Qué se entiende 2por:
+Describir: dar cuenta de manera detallada y precisa de las características, cualidades y
+particularidades de un fenómeno, proceso o situación de modo que quien escucha o lee la
+descripción pueda percibir y apreciar el fenómeno como si lo conociera directamente. En una
+descripción se presentan los rasgos de una situación o fenómeno sin realizar juicios respecto de ellas.
+Una descripción responde a la pregunta ¿qué es o cómo es?
+Analizar: Etimológicamente significa distinción y separación de las partes de un todo hasta
+llegar a conocer sus principios o elementos. Implica entonces, encontrar patrones; organizar las
+partes; reconocer significados ocultos; identificar componentes, de modo de plantear conjeturas,
+hipótesis, evidencias o estructuras que explican el fenómeno que es objeto de análisis. En el análisis
+se presentan juicios debidamente fundamentados respecto del porqué del fenómeno analizado. Un
+análisis responde a la pregunta ¿por qué es?
+La Práctica será calificada con una de las siguientes categorías: Distinguido (D), Aprobado
+(A), Objetado (O), Reprobado (R), según el puntaje obtenido:
+• Distinguido (D): => 85 puntos.
+• Aprobado (A): entre 60 y 84 puntos.
+• Objetado (O): entre 26 y 59 puntos.
+Los informes pueden ser objetados por formato y/o puntaje
+• Reprobado (R): <26 puntos.
+o Si las actividades realizadas por el/la estudiante no cumplen los objetivos de
+la Práctica I, ésta será inválida y no será corregida.
+o Si se detecta algún tipo de copia de otro informe o de alguna página web, sin
+2 Fuente: Real Academia Española www.rae.es
+22
+aclarar referencias, será reprobada inmediatamente y se iniciará un
+procedimiento definido por la Escuela para sancionar este tipo de actitudes
+deshonestas3.
+Además, la Dirección de Pregrado podría verificar la veracidad de los datos y de la práctica
+presentada por el/la estudiante, contactando a una o varias empresas, al azar, para validar
+información.
+8.2. Publicación de Resultados
+Los resultados se publican, a través de la plataforma de Canvas UC, en la fecha indicada en
+el calendario anual, y los informes corregidos pueden ser descargados, a través de la misma
+plataforma, en un plazo no superior a un semestre desde la publicación de los resultados. Cumplido
+ese plazo, el sistema será actualizado. La calificación del curso se visualizará en la carga académica
+del/la estudiante, al término del semestre según corresponda.
+Los y las estudiantes no regulares que entregan informe a través del correo
+ing1001.ing@uc.cl, se les informará sus resultados a través de esa misma vía.
+8.3. En Caso de Resultado Objetado
+Los informes pueden ser objetados por formato o por puntaje. De ser así, tiene otra
+oportunidad para entregar un nuevo informe.
+1. Informe Objetado (por formato)4: El informe tiene una deficiente presentación. En este
+punto se evalúa: Redacción, Ortografía, Índice (general, de tablas y de figuras), Formalidad
+del Lenguaje, Márgenes, Justificación e interlineado, Letra, Títulos y Presentación de tablas
+y figuras.
+• Si un/a estudiante que tiene 10 o más faltas de ortografía y/o formato distintas, el
+3 Consultar “Manual Elaboración de Documentos sin Plagio” en Siding>Pregrado>Reglamento.
+4 El informe puede tener puntaje suficiente como para aprobar y a pesar de ello, ser objetado por formato.
+23
+informe será Objetado.
+2. Informe Objetado (por puntaje): El/la estudiante no alcanza el puntaje suficiente para
+aprobar, pero tampoco es insuficiente como para reprobar.
+El/la estudiante objetado por puntaje o formato tiene otra oportunidad para entregar un
+nuevo informe corregido, previo a la aprobación de un curso o participación de un taller, de manera
+online o presencial, sin mínimos de horas exigidas, pero acreditando la aprobación y realización
+del taller, mediante la entrega de un certificado que debe estar adjunto al nuevo informe que
+presentará.
+El taller busca apoyar el desarrollo de habilidades comunicativas, permitiendo enfrentar de
+mejor manera el cumplimiento del requisito de formato, ortografía, profundización de los temas y
+análisis cuando corresponda. Por lo anterior, al momento de elegir y realizar un curso, este debe
+estar relacionado con la debilidad encontrada en el informe, con el objetivo de fortalecer y mejorar
+las habilidades comunicativas.
+Los y las estudiantes con resultado objetado, en su segunda oportunidad de evaluación, se
+les exigirá un mayor nivel en el desarrollo de su instrumento de evaluación (mínimo 70 puntos),
+dado que contarán con una segunda oportunidad y, además, se les habrá precisado la mayoría de los
+errores. Si es reprobada, el/la estudiante debe realizar una nueva práctica I.
+En la segunda oportunidad de evaluación, el/la estudiante no podrá obtener calificación D
+(distinguido) aunque obtenga un puntaje sobresaliente. Sólo se puede obtener esta calificación en
+la primera entrega del informe.
+Un/a estudiante, con resultado objetado, debe entregar un nuevo informe, a través de Canvas
+UC, para recorrección. Debe subir 4 archivos obligatorios en formato PDF:
+24
+• Informe objetado: Informe Práctica I que fue entregado y objetado en la instancia
+anterior.
+• Informe corregido: Informe Práctica I corregido considerando la evaluación y
+comentarios realizados por el corrector.
+• Ensayo5: Ensayo de máximo tres páginas sobre los temas por los cuales fue
+objetado, conservando el formato indicado en el manual.
+• Certificado del curso-taller: Certificado de aprobación del curso-taller que
+acredite la realización de este.
+El ensayo debe presentar la siguiente estructura:
+I. Introducción.
+II. Tesis.
+III. Dos argumentos.
+IV. Conclusión.
+V. Dos referencias bibliográficas.
+El informe corregido, debe tener el siguiente orden indicado:
+I. Certificado de entrega del informe para recorrección.
+II. Registro de Autorización de la Práctica I.
+III. Formulario de Evaluación de la Universidad (nuevo).
+IV. Portada del Informe (completo).
+V. Un nuevo informe (cuerpo del informe) considerando la evaluación y comentarios
+realizados por el/la corrector/a.
+Como se dijo anteriormente, en caso de resultado con necesidad de mejora (u objetado),
+esto debe ocurrir necesariamente en el periodo del mismo semestre en que se entregó por primera
+vez, de lo contrario el curso quedará reprobado.
+8.3.3 Calendario Proceso Práctica I
+5 A pesar de que se debe respetar el formato del informe de Práctica I, los ensayos se redactan en 3° persona. Con el mismo formato del cuerpo
+del informe de práctica.
+Semestres
+Capacitación Entrega
+Informe de Práctica
+(Presencial)
+Fecha de Entrega
+de Informe 1° instancia
+(por el o la estudiante)
+Fecha de Entrega
+de Resultado 1°
+instancia
+(por Canvas)
+Fechas entrega
+Informes Objetados
+(Por el o la estudiante)
+Fecha de Entrega
+Resultados Informes
+Objetados
+(por Canvas)
+1° Semestre Durante el mes de
+Marzo
+Marzo, hasta el
+último día del mes.
+Último día Hábil
+de Abril
+Mayo, hasta el último
+día del mes.
+Último día hábil de
+Junio
+25
+Semestres
+Capacitación Entrega
+Informe de Práctica
+(Presencial)
+Fecha de Entrega
+de Informe 1° instancia
+(por el o la estudiante)
+Fecha de Entrega
+de Resultado 1°
+instancia
+(por Canvas)
+Fechas entrega
+Informes Objetados
+(Por el o la estudiante)
+Fecha de Entrega
+Resultados Informes
+Objetados
+(por Canvas)
+2° Semestre Durante el mes de
+Agosto
+Agosto, hasta el
+último día del mes.
+Último día hábil
+de Septiembre.
+Octubre, hasta el
+último día del mes.
+Último día hábil de
+Noviembre
+Fuente: Elaboración propia
+8.4. Actualización de Calificación en Ficha Académica y Seguimiento Curricular
+La calificación del curso ING1001 se cambiará al término del semestre el cual se verá
+reflejado, tanto en el seguimiento curricular de Siding, como en la ficha académica del Portal UC.
+9). Vigencia de la Práctica y Fechas de Entrega del Informe
+La práctica I tiene una vigencia de 2 semestres desde que es finalizada. A modo de ejemplo, si la
+práctica es realizada durante el verano del 2026 (enero, febrero) podrá entregar el informe en el
+semestre 2026-1 o 2026-2. En el caso que la realice en invierno de 2026, podrá entregar en el
+periodo 2026-2 o 2027-1.
+Si el informe de su Práctica es reprobado, no podrá volver hacer entrega de un nuevo
+informe en ningún otro periodo, a pesar de que la práctica aún tenga vigencia. Por lo tanto, deberá
+realizar una nueva práctica obrera o social.
